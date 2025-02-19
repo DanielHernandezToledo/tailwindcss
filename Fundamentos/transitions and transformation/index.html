@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body{
+            padding: 5rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- TRANSITION -->
+    <button class="ml-5 p-5 bg-blue-500 transition hover:bg-teal-500 duration-300 ease-in-out delay-150 text-white">Transition</button>
+    <a href="https://tailwindcss.com/docs/transition-property" class="text-blue-500 hover:text-blue-800">Mas info...</a>
+
+    <br>
+    <hr>
+    <br>
+
+    <!-- TRANSFORMATION -->
+    <button class="ml-5 p-5 bg-blue-500 transition hover:bg-teal-500 duration-300 ease-in-out delay-150 text-white hover:-translate-y-2 hover:scale-110 hover:bg-teal-600">Transition</button>
+    <a href="https://tailwindcss.com/docs/transform" class="text-blue-500 hover:text-blue-800">Mas info...</a>
+
+    <br>
+    <hr>
+    <br>
+
+    <!-- ANIMATION -->
+    <div class="flex justify-center">
+        <div class="p-20 ml-20 mt-20 w-20 bg-teal-200 animate-spin">spin</div>
+        <div class="p-20 ml-20 mt-20 w-20 bg-teal-200 animate-ping">ping</div>
+        <div class="p-20 ml-20 mt-20 w-20 bg-teal-200 animate-pulse">pulse</div>
+        <div class="p-20 ml-20 mt-20 w-20 bg-teal-200 animate-bounce">bounce</div>
+    </div>
+
+</body>
+</html>

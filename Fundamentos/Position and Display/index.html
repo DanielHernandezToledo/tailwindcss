@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            padding: 5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="mb-3">Position</h1>
+    <div class="relative w-1/2 h-40 bg-green-200">
+        <p>Relative</p>
+        <div class="absolute bottom-0 right-0 bg-teal-500 p-4">
+            <p>Absolute</p>
+        </div>
+    </div>
+
+    <div class="relative w-1/2 h-40 bg-green-200 mt-7">
+        <p>Relative</p>
+        <div class="absolute left-0 top-0 bg-teal-500 p-4">
+            <p>Absolute</p>
+        </div>
+    </div>
+
+    <div class="relative w-1/2 h-40 bg-green-200 mt-7">
+        <p>Relative</p>
+        <div class="absolute right-0 top-0 bg-teal-500 p-4">
+            <p>Absolute</p>
+        </div>
+    </div>
+
+    <div class="relative w-1/2 h-40 bg-green-200 mt-7">
+        <p>Relative</p>
+        <div class="absolute left-0 bottom-0 bg-teal-500 p-4">
+            <p>Absolute</p>
+        </div>
+    </div>
+
+    <a href="https://tailwindcss.com/docs/position" class="text-blue-500 hover:text-blue-800">Mas info...</a>
+
+    <br>
+    <hr>
+    <br>
+
+    <h1 class="mb-3">Display</h1>
+    <div class="bg-indigo-100 p-10 mb-10 w-[600px]">
+        <span class="inline">1. inline</span>
+        <span class="inline-block">2. inline-block</span>
+        <span class="block bg-orange-200">3. block</span>
+        <span class="hidden">4. hidden</span>
+
+    </div>
+    <a href="https://tailwindcss.com/docs/display" class="text-blue-500 hover:text-blue-800">Mas info...</a>
+</body>
+
+</html>
